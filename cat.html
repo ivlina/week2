@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опросник для обладателей котиков</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Имя</legend>
+            <div><label >Кличка питомца</label><input type="text" /></div>
+            <div><label >Имя владельца</label><input type="text" /></div>
+            <div><label >Контакты владельца</label><input type="text" /></div>
+        </fieldset>
+        <p>Выберите продукт</p>
+        <select>
+            <option value="1">Метис</option>
+            <option value="2">Чистокровный</option>
+        </select>
+        <p>Чем питается?</p>
+        <div><input type="checkbox" />Сухой корм</div>
+        <div><input type="checkbox" />Влажный корм</div>
+        <div><input type="checkbox" />Натуральный корм</div>
+        <br />
+        <div>
+            <label>Пол питомца</label><br /><br />
+            <input type="radio" name="sex" /> Самка <br /> <input type="radio" name="sex" /> Самец
+        </div>
+        <p>Комментарий</p>
+        <div> 
+            <textarea rows="10">Если хотите добавить что-то важное, это можно сделать здесь.</textarea>
+        </div>
+        <div>Можете добавить фотографию питомца<input type="file" /></div>
+        <button>Сохранить</button>
+    </form>
+</body>
+</html>
